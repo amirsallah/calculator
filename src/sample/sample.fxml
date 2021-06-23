@@ -5,176 +5,192 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="324.0" prefWidth="302.0" spacing="10.0" style="-fx-background-color: #00251a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-   <children>
-      <Label fx:id="res" alignment="CENTER" contentDisplay="CENTER" prefHeight="55.0" prefWidth="300.0" style="-fx-background-color: #f6fbf5;" textFill="#076549">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="324.0"
+      prefWidth="302.0" spacing="10.0" style="-fx-background-color: #00251a;" xmlns="http://javafx.com/javafx/11.0.1"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <Label fx:id="res" alignment="CENTER" contentDisplay="CENTER" prefHeight="55.0" prefWidth="300.0"
+          style="-fx-background-color: #f6fbf5;" textFill="#076549">
+      <font>
+         <Font name="Arial Narrow Bold Italic" size="24.0"/>
+      </font>
+   </Label>
+   <HBox prefHeight="50.0" prefWidth="300.0">
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="1" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
          <font>
-            <Font name="Arial Narrow Bold Italic" size="24.0" />
+            <Font name="Agency FB Bold" size="18.0"/>
          </font>
-      </Label>
-      <HBox prefHeight="50.0" prefWidth="300.0">
-         <children>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="1" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font></Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="2" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font></Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="3" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font></Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators" style="-fx-background-color: #234535;" text="sin" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font></Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators" style="-fx-background-color: #234535;" text="AC" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-         </children>
-      </HBox>
-      <HBox prefHeight="50.0" prefWidth="300.0">
-         <children>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="4" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="5" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="6" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators" style="-fx-background-color: #234535;" text="cos" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators" style="-fx-background-color: #234535;" text="x" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-         </children>
-      </HBox>
-      <HBox prefHeight="50.0" prefWidth="300.0">
-         <children>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="7" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="8" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="9" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators" style="-fx-background-color: #234535;" text="/" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators" style="-fx-background-color: #234535;" text="_" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-         </children>
-      </HBox>
-      <HBox prefHeight="50.0" prefWidth="300.0">
-         <children>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" prefHeight="50.0" prefWidth="111.0" style="-fx-background-color: #234535;" text="0" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" style="-fx-background-color: #234535;" text="." textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators" style="-fx-background-color: #234535;" text="=" textFill="#249724">
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-            </Button>
-            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators" prefHeight="50.0" prefWidth="53.0" style="-fx-background-color: #234535;" text="+" textFill="#249724">
-               <font>
-                  <Font name="Agency FB Bold" size="18.0" />
-               </font>
-               <HBox.margin>
-                  <Insets left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-            </Button>
-         </children>
-      </HBox>
-   </children>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="2" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="3" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators"
+              style="-fx-background-color: #234535;" text="sin" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators"
+              style="-fx-background-color: #234535;" text="AC" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+   </HBox>
+   <HBox prefHeight="50.0" prefWidth="300.0">
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="4" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="5" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="6" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators"
+              style="-fx-background-color: #234535;" text="cos" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators"
+              style="-fx-background-color: #234535;" text="x" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+   </HBox>
+   <HBox prefHeight="50.0" prefWidth="300.0">
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="7" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="8" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="9" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators"
+              style="-fx-background-color: #234535;" text="/" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators"
+              style="-fx-background-color: #234535;" text="_" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+   </HBox>
+   <HBox prefHeight="50.0" prefWidth="300.0">
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers" prefHeight="50.0"
+              prefWidth="111.0" style="-fx-background-color: #234535;" text="0" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#numbers"
+              style="-fx-background-color: #234535;" text="." textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators"
+              style="-fx-background-color: #234535;" text="=" textFill="#249724">
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+      </Button>
+      <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#operators" prefHeight="50.0"
+              prefWidth="53.0" style="-fx-background-color: #234535;" text="+" textFill="#249724">
+         <font>
+            <Font name="Agency FB Bold" size="18.0"/>
+         </font>
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0"/>
+         </HBox.margin>
+      </Button>
+   </HBox>
 </VBox>

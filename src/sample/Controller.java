@@ -25,7 +25,7 @@ public class Controller {
 
     @FXML
     public void operators(ActionEvent event) {
-        float num2 = 0;
+        float num2;
         String value = ((Button) event.getSource()).getText();
 
         if (value.equals("AC")) {
